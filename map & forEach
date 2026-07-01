@@ -1,0 +1,12 @@
+let numbers = [1, 2, 3, 4, 5];
+
+// Using forEach  
+// forEach does not return a new array, it simply executes a provided function once for each array element      
+numbers.forEach((num) => {
+    console.log(num * 2); // Output: 2, 4, 6, 8, 10
+});
+
+// Using map
+//map returns a new array with the results of calling a provided function on every element in the calling array
+let doubledNumbers = numbers.map((num) => num * 2);
+console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
