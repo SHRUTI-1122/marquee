@@ -18,3 +18,17 @@ fetchDataPromise()
         console.error("Error:", error);
     });
 }
+
+//async await example
+
+//this is the example of async await in js which is used to handle asynchronous operations in a more synchronous and readable manner.
+//It allows us to write asynchronous code that looks and behaves like synchronous code, making it easier to understand and maintain.        
+
+async function fetchDataAsync() {
+    try {
+        const data = await fetchDataPromise();
+        console.log(data.message);
+    } catch (error) {
+        console.error("Error:", error);
+    } //the await keyword is used to pause the execution of the async function until the promise returned by fetchDataPromise() is resolved or rejected.
+}
