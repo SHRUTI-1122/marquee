@@ -8,7 +8,7 @@ function fetchDataPromise() {
             const data = { message: "Data fetched successfully" };
             resolve(data);
         }, 2000);
-    }   );
+    });
 
 fetchDataPromise()
     .then((data) => {
