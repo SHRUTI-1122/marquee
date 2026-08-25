@@ -9,7 +9,7 @@ const notifications = [
     "Login successful",
     "You have 3 new emails",
     "Meeting starts in 10 minutes",
-    "New message "
+    "New message"
 ];
 
 notifyBtn.addEventListener("click", () => {
