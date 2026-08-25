@@ -4,7 +4,7 @@ const input2 = document.querySelector("#input2");
 const button = document.querySelector("#addButton");
 const list = document.querySelector("#list");
 
-button.addEventListener("click", function () {
+button.addEventListener("click", function (){
     const value1 = input1.value.trim();
     const value2 = input2.value.trim();
 
