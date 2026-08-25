@@ -17,6 +17,7 @@ fetch("https://jsonplaceholder.typicode.com/posts/1",{
 
 
 
+
 //POST
 fetch("https://jsonplaceholder.typicode.com/posts",{
   method:"POST",
