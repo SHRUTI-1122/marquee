@@ -8,7 +8,7 @@ button.addEventListener("click", function () {
     const value1 = input1.value.trim();
     const value2 = input2.value.trim();
 
-    if (!value1 && !value2) {
+    if (!value1 && !value2){
         return;
     }
 
